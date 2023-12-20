@@ -1,0 +1,33 @@
+.className2 {
+  color: #db1c48;
+  border: 2px solid #db1c48;
+  border-radius: 12px;
+  padding: 5px;
+  background-color: white;
+  margin: 50px;
+}
+.get2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.className1 {
+  color: white;
+  border: 2px solid #db1c48;
+  border-radius: 12px;
+  padding: 5px;
+  background-color: #db1c48;
+  margin: 50px;
+}
+.img1 {
+  height: 50vh;
+  width: 50vw;
+}
+.bg2 {
+  display: flex;
+  flex-direction: column;
+}
+li {
+  list-style: none;
+}
