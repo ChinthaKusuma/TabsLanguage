@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import Image from '../Image'
 import TabItem from '../TabItem'
 
 import './index.css'
@@ -31,13 +32,11 @@ class Tabs extends Component {
         {list2.map(each => {
           if (each.id === activeId) {
             return (
-              <li>
-                <img
-                  src={each.imageUrl}
-                  className="img1"
-                  alt={each.imageAltText}
-                />
-              </li>
+              <Image
+                alt1={each.imageAltText}
+                key={each.id}
+                src1={each.imageUrl}
+              />
             )
           }
           return null
